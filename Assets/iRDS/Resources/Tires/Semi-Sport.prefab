@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  m_Layer: 12
+  m_Name: Tire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400002}
+  m_Layer: 12
+  m_Name: Caliper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400004}
+  - component: {fileID: 11400000}
+  m_Layer: 12
+  m_Name: Semi-Sport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9668764, y: 0.3237545, z: 1.365731}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400002}
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -420493609, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  wheelPosition: 
+  radius: 0.34
+  suspensionTravel: 0.2
+  dampingRatio: 0.7
+  inertia: 2.2
+  grip: 1
+  ToeAngle: 0
+  CamberAngle: 0
+  brakeFrictionTorque: 4000
+  handbrakeFrictionTorque: 0
+  frictionTorque: 10
+  maxSteeringAngle: 28
+  maxSteeringAngleOld: 0
+  model: {fileID: 0}
+  modelCalliper: {fileID: 0}
+  massFraction: 0.25
+  a:
+  - 1.799
+  - 0
+  - 1688
+  - 4140
+  - 6.026
+  - 0
+  - -0.3589
+  - 1
+  - 0
+  - -0.006111
+  - -0.03244
+  - 0
+  - 0
+  - 0
+  - 0
+  b:
+  - 1.65
+  - 0
+  - 1688
+  - 0
+  - 229
+  - 0
+  - 0
+  - 0
+  - -10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  cCoefficients:
+  - 2.1
+  - -3.9
+  - -3.9
+  - -1.26
+  - -8.2
+  - 0.025
+  - 0
+  - 0.044
+  - -0.58
+  - 0.18
+  - 0.043
+  - 0.048
+  - -0.003
+  - -0.18
+  - 0.14
+  - -1.029
+  - 0.27
+  - -1.1
+  driveTorque: 0
+  driveFrictionTorque: 0
+  brake: 0
+  handbrake: 0
+  steering: 0
+  drivetrainInertia: 0
+  suspensionForceInput: 0
+  angularVelocity: 0
+  slipRatio: 0
+  slipVelo: 0
+  compression: 0
+  springForceRatio: 2
+  wheelVelo: {x: 0, y: 0, z: 0}
+  rotation: 0
+  slipAngle: 0
+  friction: 0
+  friction1: 0
+  tyreTemp: 0
+  tyreHardness: 10000
+  wear: 0
+  tyreHot: 0
+  originalB2: 0
+  maxSlip: 0
+  maxAngle: 0
+  ackermanFactor: 1.5
+  camberSteeringFactor: 0.25
+  staticFrictionCoefficient: 1
+  originala2: 0
+  compresionRatio: 0
+  wheelLocalPosition: {x: 0, y: 0, z: 0}
+  isFront: 0
+  isLeft: 0
+  materialFriction: 1
+  materialBumpFactor: 0
+  materialSinkFactor: 0
+  rollingFriction: 0
+  skidmarks: {fileID: 0}
+  materialIndex: -1
+  Fy: 0
+  Fx: 0
+  currentMaterial: {fileID: 0}
+  lastMaterial: {fileID: 0}
+  oldSuspension: 1
+  newSuspensionRebound: 4000
+  newSuspensionBounce: 2500
+  newSuspensionSpring: 50000
+  newSuspensionBumpStopRate: 150000
+  newSuspensionSpringFactorMin: 0.1
+  newSuspensionSpringFactorMax: 0.2
+  newSuspensionDampFactorMin: 0.1
+  newSuspensionDampFactorMax: 0.2
+  realTireMode: 0
+  slipRatioClamp: 1.5
+  slipAngleClamp: 1.5
+  multiplierFY: 1
+  multiplierFX: 1
+  tireAngles: {x: 0, y: 0, z: 0}
+  maxCamberAngle: 25
+  suspensionType: 0
+  basicSuspension:
+    hinge_anchor: {x: 0, y: 0, z: 0}
+    wheel_hub: {x: 0, y: 0, z: 0}
+  macPhersonSuspension:
+    top: {x: 0, y: 0, z: 0}
+    end: {x: 0, y: 0, z: 0}
+    hinge: {x: 0, y: 0, z: 0}
+    mountrot: {x: 0, y: 0, z: 0, w: 0}
+    tempEnd: {x: 0, y: 0, z: 0}
+  wishBoneSuspension:
+    mountrot: {x: 0, y: 0, z: 0, w: 0}
+    up_ch0: {x: 0, y: 0, z: 0}
+    up_hub: {x: 0, y: 0, z: 0}
+    lo_ch0: {x: 0, y: 0, z: 0}
+    lo_hub: {x: 0, y: 0, z: 0}
+    rot_lo_hub: {x: 0, y: 0, z: 0}
+    rot_up_hub: {x: 0, y: 0, z: 0}
+  roadforce: 0
+  wheelieMultiplier: 0
+  tyreMode: 0
+  isPoweredWheel: 0
+  contactPatchType: 0
+  layers:
+    serializedVersion: 2
+    m_Bits: 4294967295

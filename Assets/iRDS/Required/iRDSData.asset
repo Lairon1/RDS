@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fe36d949960bb489798d0209e8a184, type: 3}
+  m_Name: iRDSData
+  m_EditorClassIdentifier: 
+  dontShowOnLoad: 0
+  iRDSLogo: {fileID: 2800000, guid: 4f468f5b40868a2459e1149e43797e81, type: 3}
+  changeLog: {fileID: 4900000, guid: 1247809ae0ae7684080ca9463931b4a3, type: 3}

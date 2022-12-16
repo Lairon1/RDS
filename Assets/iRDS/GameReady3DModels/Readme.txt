@@ -1,0 +1,2 @@
+This 3 car models where provided by Game Ready 3D models and the usage of the models is subject to their License agreement on the following link:
+http://www.gameready3d.com/Article-End-User-License-Agreement

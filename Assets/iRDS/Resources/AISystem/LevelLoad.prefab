@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LevelLoad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 741261414, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableTCL: 1
+  tcl: 0.45
+  tclMinSpd: 1
+  enableABS: 1
+  abs: 0.4
+  enableESC: 1
+  esc: 1
+  enableSteerHelp: 1
+  steerHelp: 0.01
+  playerName: Player
+  carNumber: 
+  selectedCarColor:
+  - serializedVersion: 2
+    rgba: 4671447
+  - serializedVersion: 2
+    rgba: 15395562
+  selectedCar: Lamborgini Countach
+  controlDigital: 1
+  automaticGearShifting: 0
+  automaticClutch: 1
+  startEngineOnStart: 1
+  pitsAutoPilot: 0
+  autoSteering: 0
+  autoBrake: 0
+  autoThrottle: 0
+  preferredCameraView: ExteriorViewNear
+  gridPosNumber: 0
+  imACop: 0
+  controlAsigments:
+    throttleTime: 1
+    throttleTimeTraction: 10
+    throttleReleaseTime: 0.5
+    throttleReleaseTimeTraction: 0.1
+    steerTime: 1.2
+    veloSteerTime: 0.1
+    steerReleaseTime: 0.6
+    veloSteerReleaseTime: 0
+    steerCorrectionFactor: 4
+    controlType: 0
+    steeringAxis: Horizontal
+    steeringButtonLeft: Horizontal
+    steeringButtonRight: Horizontal
+    throttleAxis: Vertical1
+    overrideThrottleAxis: 0
+    throttleButton: Vertical1
+    brakeAxis: Vertical2
+    overrideBrakeAxis: 0
+    brakeButton: Vertical2
+    shiftUpButton: ShiftUp
+    shiftDownButton: ShiftDown
+    handbrakeButton: Jump
+    clutchAxis: Clutch
+    clutchButton: Clutch
+    throttleKey: 273
+    altThrottleKey: 304
+    brakesKey: 274
+    leftKey: 276
+    rightKey: 275
+    handbrakeKey: 32
+    shiftUpKey: 97
+    shiftDownKey: 122
+    clutchKey: 115
+    clutchTime: 1
+    clutchReleaseTime: 0.5
+    handbrakeTime: 1
+    handbrakeReleaseTime: 1
+    startEngineKey: 113
+    startEngineButton: StartEngine
+    nitroKey: 306
+    nitroButton: Nitro
+    activateSirenKey: 101
+    activateSirenButton: Siren
+    steerRawInput:
+      analogRawInputs: 0
+      updateInterval: 0.016666668
+      deadZone: 0.01
+      LowPassKernelWidthInSeconds: 1
+      sensitivity: 1
+      LowPassFilterFactor: 0
+      lowPassValue: 0
+    throttleRawInput:
+      analogRawInputs: 0
+      updateInterval: 0.016666668
+      deadZone: 0.01
+      LowPassKernelWidthInSeconds: 1
+      sensitivity: 1
+      LowPassFilterFactor: 0
+      lowPassValue: 0
+    brakeRawInput:
+      analogRawInputs: 0
+      updateInterval: 0.016666668
+      deadZone: 0.01
+      LowPassKernelWidthInSeconds: 1
+      sensitivity: 1
+      LowPassFilterFactor: 0
+      lowPassValue: 0
+    clutchRawInput:
+      analogRawInputs: 0
+      updateInterval: 0.016666668
+      deadZone: 0.01
+      LowPassKernelWidthInSeconds: 1
+      sensitivity: 1
+      LowPassFilterFactor: 0
+      lowPassValue: 0
+    mobileControlSelected: 0
+    gearShifterButtons: []
+    useGearShifter: 0
+    useCarInputControls: 0
+    combinedAxisPedals: 0
+  initialPreviewOnRace: 1
+  driversNames:
+  - R. Rodriguez
+  - J. Perez
+  - J. Garrido
+  - R. Lopez
+  - L. Peterson
+  - K. Steven
+  - H. Luna
+  - O. Olmedo
+  - Q. Mckarty
+  - M. Moore
+  carNumberMin: 0
+  carNumberMax: 100
+  playerRandomCarNumber: 1
+  numberOfAiCars: 10
+  levelOfAICarsMin: 1
+  levelOfAICarsMax: 1
+  carAiColors:
+  - serializedVersion: 2
+    rgba: 8092549
+  - serializedVersion: 2
+    rgba: 9961481
+  - serializedVersion: 2
+    rgba: 116920
+  - serializedVersion: 2
+    rgba: 37121
+  - serializedVersion: 2
+    rgba: 9009974
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 9276927
+  - serializedVersion: 2
+    rgba: 48127
+  - serializedVersion: 2
+    rgba: 2408623
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  - serializedVersion: 2
+    rgba: 16777215
+  trackToRace: CompleteScene
+  respwanActive: 1
+  respawnAtWP: 1
+  respawnTime: 3
+  unstuckTime: 2
+  threeWideStyle: 0
+  laps: 10
+  disableDamage: 0
+  fuelComsumptionMultiplier: 1
+  destroy: 0
+  AIcarDemo: 0
+  carShader: []
+  shaderColorPropertyName: []
+  randomAIDrivers: 1
+  carsFolders: []
+  activateNitro: 0
+  activateNitroForAI: 1
+  activateNitroForPlayers: 1
+  activateCopMode: 0
+  numberOfCops: 0
+  copCarsFolders: []
+  useRandomCopCarsColors: 0
+  agresivenessMultiplier: 1
+  copBrakeRange: 10
+  copLockOnDistance: 5
+  copPatrolSpeed: 27
+  dontAddCops: 1
+  spawnCopsAtRandomPos: 0
+  randomGrid: 1
+  randomGridAI: 1
+  initialViewSpeed: 25
+  driverSettings:
+  - subTrackChoosedMode: 1
+    AggressivenessOnBrakeMin: 1.5
+    AggressivenessOnBrakeMax: 2.5
+    speedSteeringFactorMin: 3
+    speedSteeringFactorMax: 3.5
+    LOOKAHEAD_FACTORMin: 0.3
+    LOOKAHEAD_FACTORMax: 0.33
+    LookAheadConst: 10
+    CorneringSpeedFactorMin: 0.95
+    CorneringSpeedFactorMax: 1
+    maxDriftAngleMin: 1
+    maxDriftAngleMax: 2
+    driftingThrotleFactorMin: 0.3
+    driftingThrotleFactorMax: 0.5
+    steeringDriftFactorMin: 0.25
+    steeringDriftFactorMax: 0.3
+    sideAvoidingFactorMin: 1
+    sideAvoidingFactorMax: 1
+    collisionSideFactorMin: 1
+    collisionSideFactorMax: 1
+    overtakeFactorMin: 1
+    overtakeFactorMax: 1
+    humanErrorMin: 0
+    humanErrorMax: 0
+    overtakeSpeedDiferenceMin: 0
+    overtakeSpeedDiferenceMax: 0
+    overtakeOffsetIncrementMinMin: 0.02
+    overtakeOffsetIncrementMinMax: 0.021
+    overtakeOffsetIncrementMaxMin: 0.03
+    overtakeOffsetIncrementMaxMax: 0.032
+    backToLineIncrementMin: 0.01
+    backToLineIncrementMax: 0.012
+    shifFactorMin: 0.45
+    shifFactorMax: 0.65
+    shiftUpFactorMin: 0.95
+    shiftUpFactorMax: 0.95
+    tyrechangePorcentageMin: 0.15
+    tyrechangePorcentageMax: 0.25
+    fuelloadPorcentageMin: 0.15
+    fuelloadPorcentageMax: 0.25
+    FullAccelMaringMin: 2
+    FullAccelMaringMax: 2.5
+    frontCollDistMin: 400
+    frontCollDistMax: 500
+    backCollDistMin: 25
+    backCollDistMax: 50
+    sideMarginMin: 0.5
+    sideMarginMax: 1
+    heightMarginMin: 5
+    heightMarginMax: 10
+    LENGTH_MARGINMin: 0.5
+    LENGTH_MARGINMax: 1
+    SIDE_MARGINMin: 0.5
+    SIDE_MARGINMax: 1
+    offTrackThrottleMulpilierMin: 1
+    offTrackThrottleMulpilierMax: 1
+    jumpThrottleMulpilierMin: 1
+    jumpThrottleMulpilierMax: 1
+    jumpThrottleTimeMin: 0.5
+    jumpThrottleTimeMax: 0.5
+    trgtDistFromPlayerMin: -25
+    trgtDistFromPlayerMax: 25
+    trgtDistPlayerThresholdMin: 25
+    trgtDistPlayerThresholdMax: 50
+    minAgressOnBrkDACMin: 0.5
+    minAgressOnBrkDACMax: 0.8
+    maxAgressOnBrkDACMin: 1
+    maxAgressOnBrkDACMax: 2
+    minCornerSpdFctrDACMin: 0.8
+    minCornerSpdFctrDACMax: 1.1
+    maxCornerSpdFctrDACMin: 1.5
+    maxCornerSpdFctrDACMax: 2
+  assignCarsToAIDrivers: 0
+  carsDrivers: []
+  firstPlayerSettings:
+    playerName: 
+    selectedCarColor: []
+    selectedCar: 
+    carNumber: 
+    controlDigital: 0
+    automaticGearShifting: 0
+    automaticClutch: 1
+    startEngineOnStart: 1
+    pitsAutoPilot: 0
+    autoSteering: 0
+    autoBrake: 0
+    autoThrottle: 0
+    preferredCameraView: 
+    gridPosNumber: 0
+    imACop: 0
+    enableTCL: 1
+    tcl: 0.45
+    tclMinSpd: 1
+    enableABS: 1
+    abs: 0.4
+    enableESC: 1
+    esc: 1
+    enableSteerHelp: 1
+    steerHelp: 0.01
+    controlAsigments:
+      throttleTime: 1
+      throttleTimeTraction: 10
+      throttleReleaseTime: 0.5
+      throttleReleaseTimeTraction: 0.1
+      steerTime: 1.2
+      veloSteerTime: 0.1
+      steerReleaseTime: 0.6
+      veloSteerReleaseTime: 0
+      steerCorrectionFactor: 4
+      controlType: 2
+      steeringAxis: Horizontal
+      steeringButtonLeft: Horizontal
+      steeringButtonRight: Horizontal
+      throttleAxis: Vertical1
+      overrideThrottleAxis: 0
+      throttleButton: Vertical1
+      brakeAxis: Vertical2
+      overrideBrakeAxis: 0
+      brakeButton: Vertical2
+      shiftUpButton: ShiftUp
+      shiftDownButton: ShiftDown
+      handbrakeButton: Jump
+      clutchAxis: Clutch
+      clutchButton: Clutch
+      throttleKey: 273
+      altThrottleKey: 304
+      brakesKey: 274
+      leftKey: 276
+      rightKey: 275
+      handbrakeKey: 32
+      shiftUpKey: 97
+      shiftDownKey: 122
+      clutchKey: 115
+      clutchTime: 1
+      clutchReleaseTime: 0.5
+      handbrakeTime: 1
+      handbrakeReleaseTime: 1
+      startEngineKey: 113
+      startEngineButton: StartEngine
+      nitroKey: 306
+      nitroButton: Nitro
+      activateSirenKey: 101
+      activateSirenButton: Siren
+      steerRawInput:
+        analogRawInputs: 0
+        updateInterval: 0.016666668
+        deadZone: 0.01
+        LowPassKernelWidthInSeconds: 1
+        sensitivity: 1
+        LowPassFilterFactor: 0
+        lowPassValue: 0
+      throttleRawInput:
+        analogRawInputs: 0
+        updateInterval: 0.016666668
+        deadZone: 0.01
+        LowPassKernelWidthInSeconds: 1
+        sensitivity: 1
+        LowPassFilterFactor: 0
+        lowPassValue: 0
+      brakeRawInput:
+        analogRawInputs: 0
+        updateInterval: 0.016666668
+        deadZone: 0.01
+        LowPassKernelWidthInSeconds: 1
+        sensitivity: 1
+        LowPassFilterFactor: 0
+        lowPassValue: 0
+      clutchRawInput:
+        analogRawInputs: 0
+        updateInterval: 0.016666668
+        deadZone: 0.01
+        LowPassKernelWidthInSeconds: 1
+        sensitivity: 1
+        LowPassFilterFactor: 0
+        lowPassValue: 0
+      mobileControlSelected: 0
+      gearShifterButtons: []
+      useGearShifter: 0
+      useCarInputControls: 0
+      combinedAxisPedals: 0
+  otherPlayers: []
+  raceModes: 0
+  lastManStandingIsByTime: 0
+  lastManStandingCounterTime: 25
+  flag: {fileID: 0}
+  flagRotation: {x: 0, y: 0, z: 0, w: 1}
+  flagByWaypoint: 1
+  flagInitialPosition: {x: 0, y: 0, z: 0}
+  flagInitialWaypoint: 10
+  CarsForRace: []
+  copsForRace: []
+  enableDAC: 0
+  addDriverNamesOnTopOfCars: 0
+  driverNameslabel: {fileID: 0}
+  labelOffset: {x: 0, y: 0.2, z: 0}
+  lapCounterWidth: 50
+  uniquePlayersCars: 0
+  uniqueAICars: 0
+  alwaysRespawnPlayers: 0
+  alwaysRespawnAI: 0
+  respawnSpeed: 15
+  overrideNitroInputPlayer: 0
+  overrideNitroInputAI: 0
+  dnfLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  dnfCarsOnOtherLayer: 0
+  instantiateCarsManually: 0
+  respawnHeight: 0.5
+  respawnOutOfLimitMaxDistance: 0
+  preloadCarsEnabled: 0
+  preloadedCarsPath: []
+  preloadedCopsCarsPath: []
+  captureTheFlagHitStrength: 1
+  startRaceManually: 0
+  disableRacingLine: 0
+  raceStartType: 0
+  rollingStartInitialSpeed: 20
+  rollingStartSpeedRestriction: 20

@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: d845f1bfe8bff334492bd625210fd24c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: gt4 glass
+    100002: gt4 non ref
+    100004: gt4 non ref stwheel
+    100006: gt4 ref body
+    100008: gt4 ref body lights front
+    100010: gt4 ref lamp pod
+    100012: gt4 wh br cal front L
+    100014: gt4 wh br cal front R
+    100016: gt4 wh br cal rear L
+    100018: gt4 wh br cal rear R
+    100020: gt4 wh front L
+    100022: gt4 wh front R
+    100024: gt4 wh rear L
+    100026: gt4 wh rear R
+    100028: //RootNode
+    400000: gt4 glass
+    400002: gt4 non ref
+    400004: gt4 non ref stwheel
+    400006: gt4 ref body
+    400008: gt4 ref body lights front
+    400010: gt4 ref lamp pod
+    400012: gt4 wh br cal front L
+    400014: gt4 wh br cal front R
+    400016: gt4 wh br cal rear L
+    400018: gt4 wh br cal rear R
+    400020: gt4 wh front L
+    400022: gt4 wh front R
+    400024: gt4 wh rear L
+    400026: gt4 wh rear R
+    400028: //RootNode
+    2300000: gt4 glass
+    2300002: gt4 non ref
+    2300004: gt4 non ref stwheel
+    2300006: gt4 ref body
+    2300008: gt4 ref body lights front
+    2300010: gt4 ref lamp pod
+    2300012: gt4 wh br cal front L
+    2300014: gt4 wh br cal front R
+    2300016: gt4 wh br cal rear L
+    2300018: gt4 wh br cal rear R
+    2300020: gt4 wh front L
+    2300022: gt4 wh front R
+    2300024: gt4 wh rear L
+    2300026: gt4 wh rear R
+    3300000: gt4 glass
+    3300002: gt4 non ref
+    3300004: gt4 non ref stwheel
+    3300006: gt4 ref body
+    3300008: gt4 ref body lights front
+    3300010: gt4 ref lamp pod
+    3300012: gt4 wh br cal front L
+    3300014: gt4 wh br cal front R
+    3300016: gt4 wh br cal rear L
+    3300018: gt4 wh br cal rear R
+    3300020: gt4 wh front L
+    3300022: gt4 wh front R
+    3300024: gt4 wh rear L
+    3300026: gt4 wh rear R
+    4300000: gt4 wh front L
+    4300002: gt4 ref body lights front
+    4300004: gt4 wh br cal front L
+    4300006: gt4 glass
+    4300008: gt4 ref lamp pod
+    4300010: gt4 non ref
+    4300012: gt4 ref body
+    4300014: gt4 non ref stwheel
+    4300016: gt4 wh br cal rear L
+    4300018: gt4 wh rear L
+    4300020: gt4 wh br cal front R
+    4300022: gt4 wh br cal rear R
+    4300024: gt4 wh front R
+    4300026: gt4 wh rear R
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #23'
+    second: {fileID: 2100000, guid: c8bb3a1e4c279f547959ea4edac80688, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #24'
+    second: {fileID: 2100000, guid: af3785489defc7b46b1f28517ad9f3de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gt4 glass
+    second: {fileID: 2100000, guid: 715b2916b8cb24f4090d5315b3f9def2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gt4 tex
+    second: {fileID: 2100000, guid: c1ed7f36560a6b14da7cfc732e8ad592, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.00285
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.00285
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

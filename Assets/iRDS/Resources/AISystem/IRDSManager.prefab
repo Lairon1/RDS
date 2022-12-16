@@ -1,0 +1,8259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  m_Layer: 0
+  m_Name: RacingLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400002}
+  m_Layer: 0
+  m_Name: trackLimitLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400004}
+  m_Layer: 0
+  m_Name: trackLimitRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400006}
+  m_Layer: 0
+  m_Name: TrackCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400062}
+  - component: {fileID: 6500002}
+  m_Layer: 0
+  m_Name: PitEntranceCollider
+  m_TagString: PitEntrance
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 848.00604, y: 8.481604, z: 738.55475}
+  m_LocalScale: {x: 1.2295125, y: 8.85979, z: 22.01}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6500002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &100050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400054}
+  - component: {fileID: 3300004}
+  - component: {fileID: 2300004}
+  - component: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: RoadCamera_Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300004
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100050}
+  m_Mesh: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+--- !u!23 &2300004
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0
+--- !u!1 &100052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400064}
+  - component: {fileID: 2000000}
+  - component: {fileID: 12400000}
+  - component: {fileID: 8100000}
+  - component: {fileID: 11400014}
+  - component: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: Main_Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -27.74145, y: 12.004395, z: -5.217554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.738806, g: 0.738806, b: 0.738806, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 500
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: 2
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1372879972, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadCamera: 0
+  audioAtenuationOn: 1
+  height: 1
+  heightDamping: 3
+  rotationDamping: 3
+  distance: 4
+  timeToFadeAudio: 0.1
+  audioAugmentRatio: 0.01
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  target: {fileID: 0}
+  roadPoints: {fileID: 0}
+  delayStartTime: 0
+  freeCamera: 0
+  forceFreeCamera: 0
+  zoomFactorMin: 5
+  zoomFactorMax: 25
+  zoomingDistance: 100
+  initialViewSpeed: 50
+  isColliding: 0
+  overrideRotation: 0
+  overrideLookAt: 0
+  overridePosition: 0
+  overrideFieldOfView: 0
+  overrideCollisionCorrection: 0
+  distanceSides: {x: 0, y: 0, z: 0}
+  sidesDamping: 0
+  activateDampingSpeed: 0
+  dampingSpeedMultiplierMin: 0.1
+  dampingSpeedMultiplierMax: 1
+  dampingMinSpeed: 5
+  dampingMaxSpeed: 20
+  currentDampingSpeedMultiplier: 0
+  externalRotation: {x: 0, y: 0, z: 0}
+  useTargetUpVector: 0
+  runCameraInFixedUpdate: 0
+  ignoreTimeScale: 0
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078a3cf5e72017941a4f21dec0e55b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableGUI: 1
+  absIcon: {fileID: 0}
+  absIconoff: {fileID: 0}
+  absIcontrig: {fileID: 0}
+  tclIcon: {fileID: 0}
+  tclIconoff: {fileID: 0}
+  tclIcontrig: {fileID: 0}
+  espIcon: {fileID: 0}
+  espIconoff: {fileID: 0}
+  espIcontrig: {fileID: 0}
+  steerHelpIcon: {fileID: 0}
+  steerHelpIconoff: {fileID: 0}
+  steerHelpIcontrig: {fileID: 0}
+--- !u!1 &100054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400050}
+  - component: {fileID: 3300002}
+  - component: {fileID: 2300002}
+  - component: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300002
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100054}
+  m_Mesh: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+--- !u!23 &2300002
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100054}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0
+--- !u!1 &100056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400060}
+  - component: {fileID: 6500000}
+  m_Layer: 0
+  m_Name: PitExitCollider
+  m_TagString: PitExit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 318.8966, y: 9.788736, z: 738.3066}
+  m_LocalScale: {x: 1, y: 8.85979, z: 22}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &100058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400052}
+  - component: {fileID: 11400006}
+  - component: {fileID: 3300006}
+  - component: {fileID: 2300006}
+  m_Layer: 0
+  m_Name: TrackCenterContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0
+--- !u!33 &3300006
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100058}
+  m_Mesh: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+--- !u!23 &2300006
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100058}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &100062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400058}
+  - component: {fileID: 3300008}
+  - component: {fileID: 2300008}
+  - component: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: RaceLineRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300008
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100062}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2300008
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100062}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 51f3187740e65094589d7ca3cc74ae10, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1612649940, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxMarks: 3
+  markWidth: 0.275
+  groundOffset: 0.02
+  minDistance: 0.1
+  shade: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!1 &100066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400056}
+  - component: {fileID: 11400016}
+  - component: {fileID: 3300010}
+  - component: {fileID: 2300010}
+  m_Layer: 0
+  m_Name: RaceTrackPositions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0
+--- !u!33 &3300010
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100066}
+  m_Mesh: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+--- !u!23 &2300010
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100066}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &100068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400066}
+  - component: {fileID: 11400022}
+  - component: {fileID: 11400020}
+  - component: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: IRDSWPManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1075531281, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoClose: 1
+  pitsActive: 0
+  AditionalPointsToShow:
+  - {fileID: 400056}
+  - {fileID: 433318}
+  numSegments: 1000
+  waypointscreated: 0
+  CalculateBanked: 0
+  trackCenterContainer: {fileID: 100058}
+  waypointContainer: {fileID: 100054}
+  waypointPitsContainer: {fileID: 100070}
+  trackRightContainer: {fileID: 0}
+  trackLeftContainer: {fileID: 0}
+  roadCameraPositionContainer: {fileID: 100050}
+  pitEntrance1: 999
+  pitExit1: 60
+  numsegmentsPit1: 50
+  pitoffset1: 1.5
+  pitMaxSpeed1: 10
+  pitStopSector1: 25
+  initalPitNumber_: 0
+  finalPitNumber_: 0
+  Marker: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+  MarkerMaterial: {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  EditMode: 0
+  Height: 5
+  SegmentDistanceFromStart1:
+  - 1.2976403
+  - 2.6165013
+  - 3.957209
+  - 5.320203
+  - 6.7058363
+  - 8.114383
+  - 9.546071
+  - 11.001164
+  - 12.479525
+  - 13.981559
+  - 15.50702
+  - 17.056105
+  - 18.628477
+  - 20.224257
+  - 21.843035
+  - 23.484982
+  - 25.149632
+  - 26.836731
+  - 28.546246
+  - 30.277634
+  - 32.030815
+  - 33.805325
+  - 35.60092
+  - 37.41711
+  - 39.2535
+  - 41.10992
+  - 42.98583
+  - 44.880672
+  - 46.79424
+  - 48.72608
+  - 50.675602
+  - 52.642456
+  - 54.62603
+  - 56.626072
+  - 58.64184
+  - 60.673077
+  - 62.71914
+  - 64.779625
+  - 66.8539
+  - 68.94166
+  - 71.04213
+  - 73.15489
+  - 75.279526
+  - 77.415245
+  - 79.561844
+  - 81.718544
+  - 83.88478
+  - 86.06023
+  - 88.2442
+  - 90.43614
+  - 92.63548
+  - 94.84177
+  - 97.054306
+  - 99.272644
+  - 101.4962
+  - 103.72442
+  - 105.9567
+  - 108.19248
+  - 110.4313
+  - 112.67257
+  - 114.9156
+  - 117.159935
+  - 119.404976
+  - 121.65016
+  - 123.89503
+  - 126.13887
+  - 128.38112
+  - 130.62141
+  - 132.85884
+  - 135.09319
+  - 137.32375
+  - 139.55006
+  - 141.77133
+  - 143.98734
+  - 146.19727
+  - 148.40056
+  - 150.59688
+  - 152.78557
+  - 154.96605
+  - 157.13777
+  - 159.30031
+  - 161.45297
+  - 163.59535
+  - 165.72702
+  - 167.8472
+  - 169.9556
+  - 172.05145
+  - 174.1346
+  - 176.20425
+  - 178.25993
+  - 180.30138
+  - 182.32782
+  - 184.33904
+  - 186.33441
+  - 188.31358
+  - 190.27586
+  - 192.22115
+  - 194.14886
+  - 196.0586
+  - 197.9499
+  - 199.82239
+  - 201.67566
+  - 203.50945
+  - 205.3234
+  - 207.11716
+  - 208.89029
+  - 210.64272
+  - 212.37404
+  - 214.084
+  - 215.77248
+  - 217.43925
+  - 219.08405
+  - 220.70694
+  - 222.30759
+  - 223.88614
+  - 225.44244
+  - 226.97652
+  - 228.48851
+  - 229.97855
+  - 231.44678
+  - 232.89342
+  - 234.31874
+  - 235.72322
+  - 237.10715
+  - 238.47101
+  - 239.81561
+  - 241.14139
+  - 242.44922
+  - 243.74005
+  - 245.01472
+  - 246.27429
+  - 247.52003
+  - 248.75313
+  - 249.97513
+  - 251.18742
+  - 252.39172
+  - 253.5897
+  - 254.7832
+  - 255.97427
+  - 257.16483
+  - 258.35712
+  - 259.55322
+  - 260.7556
+  - 261.96957
+  - 263.19858
+  - 264.4435
+  - 265.70535
+  - 266.98486
+  - 268.28296
+  - 269.60013
+  - 270.93713
+  - 272.29456
+  - 273.6728
+  - 275.0723
+  - 276.4935
+  - 277.93665
+  - 279.40207
+  - 280.88998
+  - 282.40054
+  - 283.93393
+  - 285.49026
+  - 287.0696
+  - 288.67197
+  - 290.29736
+  - 291.9458
+  - 293.6172
+  - 295.31152
+  - 297.02863
+  - 298.7685
+  - 300.5309
+  - 302.31577
+  - 304.12286
+  - 305.95203
+  - 307.80307
+  - 309.67578
+  - 311.56992
+  - 313.48523
+  - 315.42148
+  - 317.3784
+  - 319.35577
+  - 321.3532
+  - 323.3705
+  - 325.40732
+  - 327.46344
+  - 329.53845
+  - 331.632
+  - 333.7439
+  - 335.87363
+  - 338.021
+  - 340.18567
+  - 342.36722
+  - 344.56534
+  - 346.77963
+  - 349.00974
+  - 351.25534
+  - 353.516
+  - 355.79135
+  - 358.08112
+  - 360.3848
+  - 362.70206
+  - 365.0325
+  - 367.37573
+  - 369.7313
+  - 372.09897
+  - 374.47818
+  - 376.8686
+  - 379.26984
+  - 381.68146
+  - 384.10303
+  - 386.53415
+  - 388.97452
+  - 391.4236
+  - 393.881
+  - 396.3464
+  - 398.81924
+  - 401.2992
+  - 403.78577
+  - 406.27863
+  - 408.7773
+  - 411.28134
+  - 413.79034
+  - 416.30392
+  - 418.82162
+  - 421.34296
+  - 423.86752
+  - 426.39496
+  - 428.92487
+  - 431.45667
+  - 433.99
+  - 436.5244
+  - 439.0595
+  - 441.59476
+  - 444.12982
+  - 446.66425
+  - 449.1976
+  - 451.72937
+  - 454.25928
+  - 456.78665
+  - 459.31125
+  - 461.83252
+  - 464.3501
+  - 466.86343
+  - 469.37222
+  - 471.87598
+  - 474.37418
+  - 476.86646
+  - 479.35233
+  - 481.83136
+  - 484.3031
+  - 486.7672
+  - 489.22302
+  - 491.67038
+  - 494.10852
+  - 496.5373
+  - 498.95593
+  - 501.36432
+  - 503.76178
+  - 506.14792
+  - 508.52237
+  - 510.88458
+  - 513.23425
+  - 515.57074
+  - 517.8938
+  - 520.2027
+  - 522.4972
+  - 524.77686
+  - 527.04114
+  - 529.28973
+  - 531.5219
+  - 533.73755
+  - 535.9359
+  - 538.1168
+  - 540.2796
+  - 542.4239
+  - 544.5493
+  - 546.6552
+  - 548.7414
+  - 550.8072
+  - 552.8523
+  - 554.87616
+  - 556.87836
+  - 558.8585
+  - 560.8161
+  - 562.7508
+  - 564.6619
+  - 566.5505
+  - 568.43884
+  - 570.335
+  - 572.2389
+  - 574.15
+  - 576.0685
+  - 577.99384
+  - 579.926
+  - 581.8647
+  - 583.80963
+  - 585.7608
+  - 587.7178
+  - 589.6805
+  - 591.6487
+  - 593.6222
+  - 595.60065
+  - 597.5839
+  - 599.57196
+  - 601.56433
+  - 603.561
+  - 605.5616
+  - 607.56604
+  - 609.5741
+  - 611.58545
+  - 613.6001
+  - 615.61755
+  - 617.63794
+  - 619.66077
+  - 621.68604
+  - 623.7134
+  - 625.7428
+  - 627.7738
+  - 629.8064
+  - 631.84033
+  - 633.8754
+  - 635.9115
+  - 637.94824
+  - 639.9856
+  - 642.02325
+  - 644.06104
+  - 646.0988
+  - 648.13635
+  - 650.17346
+  - 652.20984
+  - 654.24554
+  - 656.2801
+  - 658.3135
+  - 660.3455
+  - 662.3759
+  - 664.40466
+  - 666.43134
+  - 668.45593
+  - 670.4782
+  - 672.4979
+  - 674.515
+  - 676.52924
+  - 678.5404
+  - 680.54834
+  - 682.5529
+  - 684.5539
+  - 686.5511
+  - 688.54443
+  - 690.5337
+  - 692.5187
+  - 694.4992
+  - 696.4752
+  - 698.4465
+  - 700.4128
+  - 702.3741
+  - 704.33014
+  - 706.2809
+  - 708.2261
+  - 710.16565
+  - 712.0993
+  - 714.0271
+  - 715.9487
+  - 717.8642
+  - 719.7732
+  - 721.67566
+  - 723.57153
+  - 725.46063
+  - 727.34283
+  - 729.218
+  - 731.086
+  - 732.9468
+  - 734.8001
+  - 736.6462
+  - 738.4845
+  - 740.3153
+  - 742.1382
+  - 743.95325
+  - 745.7604
+  - 747.5595
+  - 749.3505
+  - 751.1333
+  - 752.9079
+  - 754.67413
+  - 756.432
+  - 758.1816
+  - 759.92255
+  - 761.65515
+  - 763.37915
+  - 765.0946
+  - 766.80145
+  - 768.4997
+  - 770.1894
+  - 771.8705
+  - 773.54297
+  - 775.2069
+  - 776.8623
+  - 778.50916
+  - 780.1476
+  - 781.7776
+  - 783.3992
+  - 785.01263
+  - 786.6178
+  - 788.21484
+  - 789.8039
+  - 791.38513
+  - 792.95856
+  - 794.5242
+  - 796.08246
+  - 797.6334
+  - 799.1772
+  - 800.7139
+  - 802.2439
+  - 803.7674
+  - 805.2844
+  - 806.7954
+  - 808.30054
+  - 809.80005
+  - 811.2942
+  - 812.7834
+  - 814.26776
+  - 815.7478
+  - 817.2239
+  - 818.6961
+  - 820.16504
+  - 821.6309
+  - 823.0943
+  - 824.5556
+  - 826.015
+  - 827.47327
+  - 828.93207
+  - 830.4029
+  - 831.8882
+  - 833.3882
+  - 834.9029
+  - 836.4324
+  - 837.97675
+  - 839.5358
+  - 841.1099
+  - 842.6987
+  - 844.30237
+  - 845.9208
+  - 847.5541
+  - 849.20197
+  - 850.8645
+  - 852.5416
+  - 854.2332
+  - 855.93933
+  - 857.65955
+  - 859.39417
+  - 861.1427
+  - 862.9053
+  - 864.6817
+  - 866.47174
+  - 868.2755
+  - 870.0926
+  - 871.92303
+  - 873.7666
+  - 875.623
+  - 877.4924
+  - 879.3742
+  - 881.2686
+  - 883.1753
+  - 885.0942
+  - 887.02484
+  - 888.9673
+  - 890.92126
+  - 892.88666
+  - 894.8632
+  - 896.85077
+  - 898.849
+  - 900.8578
+  - 902.87695
+  - 904.9064
+  - 906.9457
+  - 908.9947
+  - 911.05316
+  - 913.1211
+  - 915.19794
+  - 917.2836
+  - 919.3782
+  - 921.481
+  - 923.5921
+  - 925.7111
+  - 927.8381
+  - 929.97235
+  - 932.1141
+  - 934.2629
+  - 936.4185
+  - 938.5808
+  - 940.74945
+  - 942.9244
+  - 945.10516
+  - 947.2916
+  - 949.48364
+  - 951.6808
+  - 953.88306
+  - 956.09015
+  - 958.30176
+  - 960.51764
+  - 962.7377
+  - 964.96155
+  - 967.18915
+  - 969.4201
+  - 971.65424
+  - 973.8913
+  - 976.13104
+  - 978.37335
+  - 980.618
+  - 982.86444
+  - 985.1128
+  - 987.36273
+  - 989.61395
+  - 991.8665
+  - 994.1199
+  - 996.37384
+  - 998.6282
+  - 1000.8829
+  - 1003.1376
+  - 1005.392
+  - 1007.64606
+  - 1009.89935
+  - 1012.15204
+  - 1014.40344
+  - 1016.65356
+  - 1018.90216
+  - 1021.14905
+  - 1023.3941
+  - 1025.637
+  - 1027.8774
+  - 1030.1155
+  - 1032.3507
+  - 1034.5831
+  - 1036.8121
+  - 1039.038
+  - 1041.2603
+  - 1043.4789
+  - 1045.6935
+  - 1047.904
+  - 1050.1104
+  - 1052.3121
+  - 1054.5094
+  - 1056.7018
+  - 1058.8892
+  - 1061.0714
+  - 1063.2485
+  - 1065.4199
+  - 1067.5858
+  - 1069.746
+  - 1071.9001
+  - 1074.0483
+  - 1076.1903
+  - 1078.3257
+  - 1080.4547
+  - 1082.577
+  - 1084.6929
+  - 1086.8016
+  - 1088.9036
+  - 1090.9983
+  - 1093.086
+  - 1095.1663
+  - 1097.2393
+  - 1099.3047
+  - 1101.3627
+  - 1103.4131
+  - 1105.4559
+  - 1107.491
+  - 1109.5182
+  - 1111.5376
+  - 1113.5493
+  - 1115.5531
+  - 1117.549
+  - 1119.5369
+  - 1121.5221
+  - 1123.5273
+  - 1125.5555
+  - 1127.6064
+  - 1129.6798
+  - 1131.7758
+  - 1133.8937
+  - 1136.0336
+  - 1138.1952
+  - 1140.3783
+  - 1142.5828
+  - 1144.8081
+  - 1147.0542
+  - 1149.3207
+  - 1151.6075
+  - 1153.9141
+  - 1156.2402
+  - 1158.5857
+  - 1160.9502
+  - 1163.3335
+  - 1165.735
+  - 1168.1545
+  - 1170.5918
+  - 1173.0466
+  - 1175.5184
+  - 1178.0068
+  - 1180.5117
+  - 1183.0326
+  - 1185.5693
+  - 1188.1212
+  - 1190.6881
+  - 1193.2695
+  - 1195.8652
+  - 1198.4749
+  - 1201.0979
+  - 1203.7341
+  - 1206.383
+  - 1209.0444
+  - 1211.7178
+  - 1214.4027
+  - 1217.0989
+  - 1219.8059
+  - 1222.5236
+  - 1225.2511
+  - 1227.9884
+  - 1230.735
+  - 1233.4905
+  - 1236.2546
+  - 1239.0267
+  - 1241.8066
+  - 1244.5938
+  - 1247.3881
+  - 1250.1887
+  - 1252.9954
+  - 1255.8077
+  - 1258.6255
+  - 1261.4482
+  - 1264.2754
+  - 1267.1067
+  - 1269.9417
+  - 1272.7802
+  - 1275.6213
+  - 1278.465
+  - 1281.3108
+  - 1284.1582
+  - 1287.007
+  - 1289.8564
+  - 1292.7064
+  - 1295.5564
+  - 1298.406
+  - 1301.255
+  - 1304.1027
+  - 1306.9486
+  - 1309.7926
+  - 1312.6343
+  - 1315.473
+  - 1318.3085
+  - 1321.1403
+  - 1323.9679
+  - 1326.7913
+  - 1329.6095
+  - 1332.4225
+  - 1335.2297
+  - 1338.0309
+  - 1340.8256
+  - 1343.6132
+  - 1346.3933
+  - 1349.1658
+  - 1351.9303
+  - 1354.6859
+  - 1357.4325
+  - 1360.1698
+  - 1362.8972
+  - 1365.6146
+  - 1368.3212
+  - 1371.0167
+  - 1373.7008
+  - 1376.3732
+  - 1379.0332
+  - 1381.6805
+  - 1384.3148
+  - 1386.9357
+  - 1389.5428
+  - 1392.1356
+  - 1394.7137
+  - 1397.2769
+  - 1399.8246
+  - 1402.3566
+  - 1404.8722
+  - 1407.3712
+  - 1409.8533
+  - 1412.3181
+  - 1414.765
+  - 1417.1938
+  - 1419.6041
+  - 1421.9956
+  - 1424.3679
+  - 1426.7206
+  - 1429.0532
+  - 1431.3655
+  - 1433.657
+  - 1435.9276
+  - 1438.1766
+  - 1440.4039
+  - 1442.6091
+  - 1444.792
+  - 1446.952
+  - 1449.089
+  - 1451.2025
+  - 1453.2922
+  - 1455.358
+  - 1457.3994
+  - 1459.4161
+  - 1461.408
+  - 1463.3746
+  - 1465.3158
+  - 1467.2312
+  - 1469.1207
+  - 1470.984
+  - 1472.8209
+  - 1474.6311
+  - 1476.4144
+  - 1478.1708
+  - 1479.9066
+  - 1481.6406
+  - 1483.3739
+  - 1485.1069
+  - 1486.84
+  - 1488.5735
+  - 1490.3076
+  - 1492.0426
+  - 1493.7788
+  - 1495.5164
+  - 1497.2557
+  - 1498.9968
+  - 1500.74
+  - 1502.4855
+  - 1504.2333
+  - 1505.9839
+  - 1507.737
+  - 1509.493
+  - 1511.2521
+  - 1513.0143
+  - 1514.7794
+  - 1516.548
+  - 1518.3198
+  - 1520.0951
+  - 1521.8738
+  - 1523.6559
+  - 1525.4415
+  - 1527.2307
+  - 1529.0233
+  - 1530.8196
+  - 1532.6191
+  - 1534.4222
+  - 1536.2288
+  - 1538.0387
+  - 1539.8519
+  - 1541.6685
+  - 1543.4882
+  - 1545.311
+  - 1547.1371
+  - 1548.9661
+  - 1550.7979
+  - 1552.6324
+  - 1554.4698
+  - 1556.3096
+  - 1558.1517
+  - 1559.9962
+  - 1561.8429
+  - 1563.6917
+  - 1565.5421
+  - 1567.3944
+  - 1569.2482
+  - 1571.1034
+  - 1572.96
+  - 1574.8175
+  - 1576.6759
+  - 1578.5349
+  - 1580.3947
+  - 1582.2546
+  - 1584.1149
+  - 1585.9749
+  - 1587.8347
+  - 1589.6942
+  - 1591.5529
+  - 1593.4108
+  - 1595.2675
+  - 1597.1229
+  - 1598.9769
+  - 1600.8291
+  - 1602.6794
+  - 1604.5275
+  - 1606.3732
+  - 1608.2161
+  - 1610.0562
+  - 1611.8932
+  - 1613.7267
+  - 1615.5568
+  - 1617.3828
+  - 1619.205
+  - 1621.0226
+  - 1622.8357
+  - 1624.6439
+  - 1626.447
+  - 1628.2449
+  - 1630.037
+  - 1631.8234
+  - 1633.6035
+  - 1635.3772
+  - 1637.1443
+  - 1638.9044
+  - 1640.6575
+  - 1642.4031
+  - 1644.1409
+  - 1645.8707
+  - 1647.5924
+  - 1649.3055
+  - 1651.0098
+  - 1652.705
+  - 1654.3909
+  - 1656.0671
+  - 1657.7335
+  - 1659.3898
+  - 1661.0355
+  - 1662.6707
+  - 1664.2948
+  - 1665.9076
+  - 1667.5089
+  - 1669.0984
+  - 1670.6758
+  - 1672.2408
+  - 1673.7932
+  - 1675.3326
+  - 1676.859
+  - 1678.372
+  - 1679.871
+  - 1681.356
+  - 1682.8267
+  - 1684.2828
+  - 1685.7241
+  - 1687.1504
+  - 1688.5612
+  - 1689.9563
+  - 1691.3357
+  - 1692.6987
+  - 1694.0453
+  - 1695.3751
+  - 1696.688
+  - 1697.9838
+  - 1699.262
+  - 1700.5225
+  - 1701.7649
+  - 1702.9891
+  - 1704.195
+  - 1705.382
+  - 1706.5499
+  - 1707.6989
+  - 1708.8282
+  - 1709.9381
+  - 1711.0281
+  - 1712.098
+  - 1713.1477
+  - 1714.1771
+  - 1715.1858
+  - 1716.1737
+  - 1717.142
+  - 1718.094
+  - 1719.0309
+  - 1719.954
+  - 1720.8646
+  - 1721.7638
+  - 1722.6531
+  - 1723.5334
+  - 1724.4064
+  - 1725.2731
+  - 1726.1345
+  - 1726.9922
+  - 1727.847
+  - 1728.7003
+  - 1729.5529
+  - 1730.4059
+  - 1731.2604
+  - 1732.1171
+  - 1732.9769
+  - 1733.8408
+  - 1734.7095
+  - 1735.5835
+  - 1736.4636
+  - 1737.3505
+  - 1738.2445
+  - 1739.1462
+  - 1740.0563
+  - 1740.9747
+  - 1741.9022
+  - 1742.839
+  - 1743.7852
+  - 1744.7411
+  - 1745.7069
+  - 1746.6829
+  - 1747.669
+  - 1748.6654
+  - 1749.6722
+  - 1750.6893
+  - 1751.717
+  - 1752.755
+  - 1753.8033
+  - 1754.8619
+  - 1755.9308
+  - 1757.0098
+  - 1758.0988
+  - 1759.1976
+  - 1760.3062
+  - 1761.4244
+  - 1762.5521
+  - 1763.689
+  - 1764.835
+  - 1765.9897
+  - 1767.1532
+  - 1768.325
+  - 1769.505
+  - 1770.693
+  - 1771.8887
+  - 1773.0919
+  - 1774.3022
+  - 1775.5195
+  - 1776.7437
+  - 1777.9742
+  - 1779.2109
+  - 1780.4535
+  - 1781.7017
+  - 1782.9552
+  - 1784.214
+  - 1785.4775
+  - 1786.7455
+  - 1788.0177
+  - 1789.294
+  - 1790.5739
+  - 1791.8572
+  - 1793.1436
+  - 1794.4327
+  - 1795.7246
+  - 1797.0187
+  - 1798.3147
+  - 1799.6125
+  - 1800.9119
+  - 1802.2124
+  - 1803.5138
+  - 1804.8159
+  - 1806.1184
+  - 1807.4211
+  - 1808.7238
+  - 1810.026
+  - 1811.3276
+  - 1812.6285
+  - 1813.9286
+  - 1815.2273
+  - 1816.5245
+  - 1817.8201
+  - 1819.1138
+  - 1820.4056
+  - 1821.6951
+  - 1822.9822
+  - 1824.2667
+  - 1825.5486
+  - 1826.8276
+  - 1828.1036
+  - 1829.3766
+  - 1830.6464
+  - 1831.913
+  - 1833.176
+  - 1834.4358
+  - 1835.692
+  - 1836.9448
+  - 1838.1942
+  - 1839.44
+  - 1840.6821
+  - 1841.921
+  - 1843.1565
+  - 1844.3885
+  - 1845.6176
+  - 1846.8433
+  - 1848.0662
+  - 1849.2864
+  - 1850.5039
+  - 1851.7191
+  - 1852.9323
+  - 1854.1433
+  - 1855.353
+  - 1856.5614
+  - 1857.7689
+  - 1858.976
+  - 1860.1829
+  - 1861.39
+  - 1862.598
+  - 1863.8073
+  - 1865.0182
+  - 1866.2316
+  - 1867.4478
+  - 1868.6675
+  - 1869.8914
+  - 1871.12
+  - 1872.354
+  - 1873.5941
+  - 1874.8412
+  - 1876.0957
+  - 1877.3588
+  - 1878.6307
+  - 1879.9128
+  radius1:
+  - 59.562893
+  - 59.562893
+  - 63.670506
+  - 68.04301
+  - 72.74744
+  - 77.75508
+  - 83.071884
+  - 88.76998
+  - 94.76068
+  - 101.19121
+  - 108.007935
+  - 115.20077
+  - 122.78292
+  - 130.80957
+  - 139.3779
+  - 148.2352
+  - 157.82356
+  - 167.8715
+  - 178.54161
+  - 189.71982
+  - 201.2716
+  - 213.79074
+  - 227.12836
+  - 241.05905
+  - 255.99146
+  - 271.55994
+  - 287.7623
+  - 305.30417
+  - 323.68964
+  - 342.968
+  - 364.4431
+  - 386.7084
+  - 410.36926
+  - 436.88712
+  - 462.97214
+  - 492.0804
+  - 524.9614
+  - 556.78546
+  - 595.5146
+  - 634.27344
+  - 681.69147
+  - 730.05896
+  - 782.72675
+  - 845.949
+  - 909.61005
+  - 989.0788
+  - 1073.2424
+  - 1175.3716
+  - 1282.2205
+  - 1447.0121
+  - 1553.5205
+  - 1832.7545
+  - 2055.7134
+  - 2429.0269
+  - 2922.1616
+  - 3893.437
+  - 5852.862
+  - 5852.862
+  - 5852.862
+  - 5852.862
+  - 5852.862
+  - 5852.862
+  - 5868.5513
+  - 3907.3962
+  - 2935.2627
+  - 2442.1077
+  - 2068.6472
+  - 1906.1665
+  - 1643.1377
+  - 1491.0559
+  - 1360.4838
+  - 1229.7607
+  - 1105.4872
+  - 1026.2872
+  - 956.5752
+  - 882.6007
+  - 826.1608
+  - 767.691
+  - 717.86414
+  - 668.8661
+  - 629.4914
+  - 590.9697
+  - 558.89624
+  - 525.914
+  - 494.85254
+  - 467.4644
+  - 234.83519
+  - 222.57506
+  - 211.40297
+  - 200.69528
+  - 190.33083
+  - 180.53596
+  - 171.9445
+  - 163.44208
+  - 155.10168
+  - 147.67656
+  - 140.27524
+  - 133.6664
+  - 127.13425
+  - 120.89414
+  - 114.99405
+  - 109.39174
+  - 104.1
+  - 99.079636
+  - 94.276245
+  - 89.748886
+  - 85.40358
+  - 81.33066
+  - 77.47987
+  - 73.76889
+  - 70.290596
+  - 66.94967
+  - 63.83837
+  - 60.89251
+  - 58.136787
+  - 55.505226
+  - 53.03582
+  - 50.705345
+  - 48.526115
+  - 46.497864
+  - 44.583435
+  - 42.81637
+  - 41.164948
+  - 39.626305
+  - 38.21424
+  - 36.906246
+  - 35.707016
+  - 34.61284
+  - 33.612488
+  - 32.723885
+  - 31.91403
+  - 31.207607
+  - 30.586609
+  - 30.045326
+  - 29.598719
+  - 29.22059
+  - 28.942356
+  - 28.735992
+  - 28.630405
+  - 29.390654
+  - 31.519953
+  - 34.805317
+  - 38.617706
+  - 41.436363
+  - 43.58576
+  - 45.897022
+  - 48.399708
+  - 51.129807
+  - 53.98648
+  - 57.09411
+  - 60.388706
+  - 63.895847
+  - 67.66284
+  - 71.60207
+  - 75.74031
+  - 80.1586
+  - 84.71545
+  - 89.609085
+  - 94.70276
+  - 100.06714
+  - 105.722
+  - 111.50247
+  - 117.609184
+  - 123.951035
+  - 130.52449
+  - 137.45122
+  - 144.54713
+  - 152.09193
+  - 159.73454
+  - 167.65704
+  - 175.84665
+  - 184.34685
+  - 193.18759
+  - 202.01543
+  - 211.38329
+  - 220.92561
+  - 230.99318
+  - 241.08423
+  - 251.20595
+  - 262.3381
+  - 272.8296
+  - 283.81143
+  - 295.95273
+  - 307.2232
+  - 319.70352
+  - 331.48108
+  - 343.91653
+  - 356.71527
+  - 369.40088
+  - 383.11655
+  - 396.614
+  - 410.1802
+  - 423.19983
+  - 436.55246
+  - 452.1621
+  - 466.25696
+  - 481.05197
+  - 496.50217
+  - 512.7652
+  - 526.3071
+  - 542.3706
+  - 556.9721
+  - 571.91754
+  - 590.4358
+  - 603.586
+  - 619.95306
+  - 634.2969
+  - 649.89246
+  - 669.9573
+  - 681.87823
+  - 703.4181
+  - 718.0259
+  - 735.5367
+  - 752.50867
+  - 765.7603
+  - 779.19366
+  - 801.78436
+  - 815.0868
+  - 832.964
+  - 846.8309
+  - 860.6509
+  - 874.8443
+  - 888.78204
+  - 910.4443
+  - 926.86176
+  - 948.63116
+  - 955.06665
+  - 969.37775
+  - 978.24347
+  - 991.41626
+  - 1010.7453
+  - 1029.7247
+  - 1035.251
+  - 1057.9272
+  - 1062.3225
+  - 1064.2966
+  - 1081.6095
+  - 1085.9062
+  - 1119.0582
+  - 1117.2057
+  - 1140.0227
+  - 1138.4321
+  - 1135.2249
+  - 1141.2795
+  - 1151.4631
+  - 1167.291
+  - 1163.8579
+  - 1170.5142
+  - 1166.6274
+  - 1178.2811
+  - 1179.4968
+  - 1193.607
+  - 1202.9843
+  - 1204.8169
+  - 1178.2516
+  - 1193.7347
+  - 1190.9918
+  - 1201.8306
+  - 1178.5394
+  - 1188.7373
+  - 1162.1044
+  - 1158.1439
+  - 1147.8761
+  - 1143.4329
+  - 1135.7349
+  - 1124.8535
+  - 1119.666
+  - 1127.2067
+  - 1099.7899
+  - 1090.9927
+  - 1060.7789
+  - 1051.7058
+  - 1023.25586
+  - 1032.8988
+  - 990.9558
+  - 972.6816
+  - 972.44995
+  - 933.7195
+  - 916.8368
+  - 888.4467
+  - 874.9855
+  - 864.8236
+  - 910.3594
+  - 1080.1421
+  - 1302.9781
+  - 1565.1149
+  - 1695.499
+  - 1644.7305
+  - 1539.1321
+  - 1544.7109
+  - 1524.7606
+  - 1482.9932
+  - 1404.3513
+  - 1408.7634
+  - 1369.3949
+  - 1339.4478
+  - 1318.3944
+  - 1276.4386
+  - 1239.934
+  - 1217.2773
+  - 1196.5597
+  - 1185.4985
+  - 1149.4479
+  - 1110.4437
+  - 1087.9513
+  - 1076.9042
+  - 1061.9973
+  - 1047.0795
+  - 1009.40283
+  - 991.00476
+  - 978.6602
+  - 953.68585
+  - 935.4429
+  - 922.2228
+  - 907.93976
+  - 880.4022
+  - 867.72754
+  - 844.8164
+  - 829.7481
+  - 817.04254
+  - 799.25214
+  - 791.9779
+  - 772.22205
+  - 755.1556
+  - 750.5284
+  - 728.1174
+  - 716.98145
+  - 700.26215
+  - 688.58484
+  - 678.0163
+  - 661.4871
+  - 645.56836
+  - 630.4237
+  - 622.5341
+  - 607.8935
+  - 601.5577
+  - 584.1326
+  - 577.41675
+  - 565.16693
+  - 549.59094
+  - 541.3522
+  - 528.48724
+  - 519.39825
+  - 507.4658
+  - 498.53537
+  - 487.6624
+  - 478.06848
+  - 468.48932
+  - 457.72028
+  - 264.6952
+  - 260.13156
+  - 255.52086
+  - 250.94171
+  - 245.89478
+  - 241.0103
+  - 236.96097
+  - 232.74109
+  - 228.09058
+  - 224.34682
+  - 220.28322
+  - 216.39635
+  - 211.95912
+  - 208.47629
+  - 204.04562
+  - 200.1591
+  - 196.63493
+  - 193.22833
+  - 189.77246
+  - 186.18555
+  - 182.20601
+  - 178.93163
+  - 175.69356
+  - 172.42937
+  - 169.35565
+  - 166.09915
+  - 163.1398
+  - 160.08795
+  - 157.0721
+  - 154.11653
+  - 151.22894
+  - 148.53236
+  - 145.89438
+  - 143.27153
+  - 140.64645
+  - 138.06248
+  - 135.52095
+  - 133.31737
+  - 130.83354
+  - 128.564
+  - 126.38565
+  - 124.18703
+  - 122.05151
+  - 120.00284
+  - 118.018845
+  - 116.00589
+  - 114.10161
+  - 112.26294
+  - 110.49307
+  - 108.83353
+  - 107.07872
+  - 105.41281
+  - 103.82108
+  - 102.335556
+  - 100.879135
+  - 99.45508
+  - 98.06062
+  - 96.72386
+  - 95.46842
+  - 94.24089
+  - 93.07579
+  - 91.948456
+  - 90.86995
+  - 89.84396
+  - 88.82637
+  - 87.89958
+  - 87.01268
+  - 86.14518
+  - 85.37337
+  - 84.59608
+  - 83.906235
+  - 83.2352
+  - 82.605804
+  - 82.047195
+  - 81.47909
+  - 81.08819
+  - 82.44481
+  - 86.159874
+  - 91.59232
+  - 97.40486
+  - 101.37121
+  - 105.004456
+  - 108.80071
+  - 112.68586
+  - 116.65443
+  - 120.71998
+  - 124.93738
+  - 129.15593
+  - 133.49927
+  - 137.95393
+  - 142.52852
+  - 147.07626
+  - 151.65663
+  - 156.50453
+  - 161.44846
+  - 166.28355
+  - 171.25755
+  - 176.21823
+  - 181.12836
+  - 186.48985
+  - 191.61974
+  - 196.83258
+  - 202.24712
+  - 207.29703
+  - 212.87045
+  - 218.19914
+  - 223.34036
+  - 228.64694
+  - 234.08806
+  - 239.44617
+  - 244.58545
+  - 249.74432
+  - 255.15587
+  - 260.83075
+  - 266.67963
+  - 271.2778
+  - 275.7442
+  - 281.12228
+  - 286.45334
+  - 291.75333
+  - 296.5863
+  - 301.2865
+  - 306.523
+  - 310.48074
+  - 315.32837
+  - 319.7547
+  - 324.1373
+  - 328.20844
+  - 332.3872
+  - 337.40536
+  - 341.1862
+  - 344.61963
+  - 348.01767
+  - 352.29443
+  - 355.42444
+  - 358.68057
+  - 361.23444
+  - 364.6416
+  - 366.9656
+  - 370.41745
+  - 372.96954
+  - 374.46393
+  - 377.15433
+  - 379.34882
+  - 381.011
+  - 381.80228
+  - 383.5634
+  - 385.03534
+  - 387.0687
+  - 387.21783
+  - 387.13672
+  - 388.85114
+  - 388.87317
+  - 389.84103
+  - 389.63226
+  - 389.49344
+  - 388.866
+  - 388.61795
+  - 388.15805
+  - 386.96652
+  - 386.99265
+  - 385.1271
+  - 384.0122
+  - 382.21283
+  - 380.61044
+  - 379.81787
+  - 377.62485
+  - 375.5921
+  - 373.641
+  - 370.9197
+  - 368.7679
+  - 366.40875
+  - 363.5284
+  - 361.5746
+  - 357.89304
+  - 355.8693
+  - 352.11185
+  - 348.73624
+  - 345.93185
+  - 342.0995
+  - 339.1797
+  - 335.09875
+  - 332.0355
+  - 327.5545
+  - 324.20178
+  - 320.76538
+  - 316.52582
+  - 312.543
+  - 308.3058
+  - 304.63455
+  - 300.5066
+  - 296.1177
+  - 291.7594
+  - 287.66574
+  - 283.49033
+  - 279.42056
+  - 274.84683
+  - 270.5728
+  - 266.2091
+  - 262.16824
+  - 257.75034
+  - 253.70729
+  - 249.4387
+  - 245.01346
+  - 241.03508
+  - 236.09323
+  - 232.2349
+  - 228.23512
+  - 223.9619
+  - 219.79349
+  - 215.68442
+  - 211.71326
+  - 207.72911
+  - 203.71678
+  - 199.3886
+  - 195.77597
+  - 192.16893
+  - 188.30963
+  - 183.8377
+  - 180.56953
+  - 179.77783
+  - 182.33865
+  - 188.11409
+  - 195.44527
+  - 203.85928
+  - 212.2377
+  - 220.92957
+  - 229.77788
+  - 238.73546
+  - 248.12851
+  - 257.28857
+  - 267.17905
+  - 276.92264
+  - 286.7886
+  - 297.3197
+  - 306.72534
+  - 317.82617
+  - 328.4116
+  - 338.885
+  - 350.42538
+  - 360.8936
+  - 371.49237
+  - 383.6244
+  - 394.20865
+  - 405.6621
+  - 416.33066
+  - 427.90555
+  - 440.3144
+  - 451.4928
+  - 462.55865
+  - 473.18073
+  - 485.17194
+  - 498.12793
+  - 508.8732
+  - 518.6005
+  - 530.6494
+  - 541.8687
+  - 553.79913
+  - 565.42523
+  - 577.5568
+  - 586.694
+  - 596.656
+  - 606.9064
+  - 618.8029
+  - 628.7499
+  - 638.33813
+  - 648.10345
+  - 658.0256
+  - 667.5999
+  - 676.86084
+  - 688.447
+  - 692.39935
+  - 701.91296
+  - 713.1131
+  - 715.8071
+  - 724.3811
+  - 732.6586
+  - 736.99316
+  - 743.0532
+  - 748.6438
+  - 753.40765
+  - 762.9941
+  - 766.6354
+  - 770.6832
+  - 773.3813
+  - 773.7224
+  - 778.65063
+  - 781.8668
+  - 788.16034
+  - 788.0539
+  - 787.8352
+  - 789.5766
+  - 781.366
+  - 786.75214
+  - 785.8208
+  - 785.0344
+  - 784.12897
+  - 777.4495
+  - 780.5158
+  - 774.523
+  - 770.113
+  - 770.4531
+  - 762.4673
+  - 758.5895
+  - 753.38715
+  - 748.59607
+  - 741.5857
+  - 735.92365
+  - 728.7471
+  - 719.3605
+  - 711.8985
+  - 705.6061
+  - 694.1677
+  - 688.33527
+  - 678.34894
+  - 669.58673
+  - 658.3284
+  - 648.6026
+  - 639.4332
+  - 626.8523
+  - 617.99225
+  - 607.06323
+  - 310.39392
+  - 304.94608
+  - 299.2018
+  - 292.7533
+  - 286.80936
+  - 281.72284
+  - 274.72647
+  - 268.17743
+  - 262.8654
+  - 256.82318
+  - 250.61581
+  - 243.23317
+  - 237.13173
+  - 231.61235
+  - 225.05594
+  - 219.15842
+  - 212.50703
+  - 206.57945
+  - 200.23376
+  - 194.32248
+  - 188.29535
+  - 182.4028
+  - 176.09389
+  - 170.26299
+  - 164.51411
+  - 158.83116
+  - 153.46758
+  - 147.80315
+  - 142.23509
+  - 136.99423
+  - 131.82957
+  - 126.55628
+  - 121.659515
+  - 116.72915
+  - 111.987854
+  - 107.34578
+  - 102.6478
+  - 98.31814
+  - 94.25154
+  - 88.807045
+  - 80.335
+  - 72.932304
+  - 68.153824
+  - 66.33879
+  - 66.828064
+  - 67.443665
+  - 68.069984
+  - 68.80311
+  - 69.54266
+  - 70.25918
+  - 71.0713
+  - 71.87257
+  - 72.713776
+  - 73.61529
+  - 74.53041
+  - 75.55439
+  - 76.58639
+  - 77.55281
+  - 78.637054
+  - 79.77473
+  - 80.93986
+  - 82.06812
+  - 83.21255
+  - 84.44405
+  - 85.76933
+  - 87.08524
+  - 88.3497
+  - 89.73351
+  - 91.0905
+  - 92.53503
+  - 93.85718
+  - 95.37782
+  - 96.893364
+  - 98.33882
+  - 99.96041
+  - 101.34524
+  - 102.99159
+  - 104.576126
+  - 106.24509
+  - 107.827675
+  - 109.500336
+  - 111.0254
+  - 112.677124
+  - 114.44771
+  - 116.1492
+  - 117.81941
+  - 119.44157
+  - 121.20446
+  - 122.8582
+  - 124.726524
+  - 126.301025
+  - 127.95244
+  - 129.66258
+  - 131.17775
+  - 133.00357
+  - 134.62694
+  - 136.35104
+  - 137.90996
+  - 139.64027
+  - 141.42757
+  - 142.86009
+  - 144.55203
+  - 145.94684
+  - 147.52802
+  - 148.84868
+  - 150.4111
+  - 151.81647
+  - 153.09933
+  - 154.32135
+  - 155.52612
+  - 156.98955
+  - 158.07368
+  - 159.37479
+  - 160.27824
+  - 161.37927
+  - 162.27203
+  - 163.22325
+  - 163.86879
+  - 164.84016
+  - 165.66876
+  - 166.31662
+  - 166.28632
+  - 166.90288
+  - 167.40549
+  - 167.59926
+  - 168.02072
+  - 167.7111
+  - 168.12527
+  - 168.25911
+  - 167.81767
+  - 167.42949
+  - 167.17953
+  - 167.10658
+  - 166.044
+  - 165.66045
+  - 164.78723
+  - 163.94905
+  - 163.1999
+  - 161.94191
+  - 160.86139
+  - 159.57285
+  - 158.33966
+  - 157.09035
+  - 155.14307
+  - 153.67035
+  - 152.1502
+  - 149.82277
+  - 147.96352
+  - 145.99667
+  - 143.98013
+  - 141.65434
+  - 139.53242
+  - 137.13445
+  - 134.49174
+  - 132.05202
+  - 129.25401
+  - 126.797325
+  - 124.055824
+  - 121.26037
+  - 118.442184
+  - 115.4206
+  - 112.64269
+  - 109.58317
+  - 106.497185
+  - 103.617226
+  - 100.473564
+  - 97.52782
+  - 94.437805
+  - 91.33083
+  - 88.4056
+  - 85.30543
+  - 82.22929
+  - 79.23694
+  - 76.214584
+  - 73.31122
+  - 70.39457
+  - 67.45866
+  - 64.69018
+  - 61.90309
+  - 59.195816
+  - 56.551804
+  - 53.964478
+  - 47.982426
+  - 38.470913
+  - 32.14108
+  - 28.618534
+  - 27.033642
+  - 26.578297
+  - 26.199371
+  - 25.877594
+  - 25.619404
+  - 25.417318
+  - 25.267662
+  - 25.1811
+  - 25.147402
+  - 25.186337
+  - 25.335539
+  - 25.572134
+  - 25.942362
+  - 26.408495
+  - 26.973555
+  - 27.66126
+  - 28.441872
+  - 29.354559
+  - 30.39124
+  - 31.550375
+  - 32.838516
+  - 34.25643
+  - 35.79252
+  - 37.45227
+  - 39.305115
+  - 41.31155
+  - 43.505676
+  - 45.82818
+  - 48.296837
+  - 51.006905
+  - 53.874294
+  - 57.06276
+  - 60.43714
+  - 64.05688
+  - 67.961105
+  - 72.0108
+  - 76.40354
+  - 81.23778
+  - 86.38401
+  - 91.83547
+  - 97.72737
+  - 104.22661
+  - 111.07052
+  - 118.751915
+  - 126.84208
+  - 135.23721
+  - 145.19698
+  - 155.52654
+  - 167.46571
+  - 179.72438
+  - 193.84145
+  - 209.91496
+  - 227.86298
+  - 248.06311
+  - 269.94696
+  - 297.17236
+  - 327.46292
+  - 362.66028
+  - 405.01474
+  - 461.03857
+  - 525.5015
+  - 610.6689
+  - 727.7361
+  - 897.9185
+  - 1163.7085
+  - 1590.993
+  - 2577.02
+  - 2577.02
+  - 2577.02
+  - 3346.0942
+  - 2020.4177
+  - 1373.7083
+  - 1063.1049
+  - 848.26337
+  - 741.532
+  - 615.6722
+  - 553.62274
+  - 493.1088
+  - 446.0339
+  - 406.7837
+  - 373.64087
+  - 347.38623
+  - 321.76044
+  - 300.55957
+  - 280.35086
+  - 158.15923
+  - 150.91513
+  - 143.5783
+  - 137.43079
+  - 131.89049
+  - 126.610855
+  - 121.77669
+  - 117.13411
+  - 112.82501
+  - 109.146194
+  - 105.570145
+  - 102.03467
+  - 98.935135
+  - 95.93814
+  - 93.19432
+  - 90.540634
+  - 87.89781
+  - 85.66084
+  - 83.43172
+  - 81.261894
+  - 79.32161
+  - 77.38999
+  - 75.62836
+  - 73.988976
+  - 72.35469
+  - 70.7596
+  - 69.41206
+  - 67.997025
+  - 66.73664
+  - 65.54788
+  - 64.3362
+  - 63.28934
+  - 62.315285
+  - 61.348305
+  - 60.463417
+  - 59.601902
+  - 58.81623
+  - 58.164494
+  - 57.500793
+  - 56.881485
+  - 56.313164
+  - 55.837105
+  - 55.382874
+  - 54.987656
+  - 54.63382
+  - 54.339626
+  - 54.11664
+  - 53.91591
+  - 53.77279
+  - 53.673363
+  - 53.656525
+  - 53.646347
+  - 53.71866
+  - 53.831123
+  - 53.540543
+  - 52.91565
+  - 52.555153
+  - 53.212086
+  radiusHill1:
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  - 3.4028235e+38
+  radiusPit1: []
+  bankedAngle1:
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  - -0
+  currentWaypointLeft1: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f0000008000000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f00000090000000910000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f030000200300002103000022030000230300002403000025030000260300002703000028030000290300002a0300002b0300002c0300002d0300002e0300002f030000300300003103000032030000330300003403000035030000360300003703000038030000390300003a0300003b0300003c0300003d0300003e0300003f030000400300004103000042030000430300004403000045030000460300004703000048030000490300004a0300004b0300004c0300004d0300004e0300004f0300005003000051030000520300005303000054030000550300005603000057030000580300005a0300005b0300005c0300005e0300005f03000060030000610300006203000063030000640300006503000066030000670300006803000069030000690300006a0300006b0300006c0300006d0300006e0300006f03000070030000710300007203000073030000740300007403000075030000760300007703000078030000790300007a0300007b0300007c0300007d0300007e0300007f030000800300008103000082030000830300008403000085030000860300008703000088030000890300008a0300008b0300008c0300008d0300008e0300008f030000900300009103000092030000930300009403000095030000960300009703000098030000990300009a0300009b0300009c0300009d0300009e0300009f030000a0030000a1030000a2030000a3030000a4030000a5030000a6030000a7030000a8030000a9030000aa030000ab030000ac030000ad030000ae030000af030000b0030000b1030000b2030000b3030000b4030000b5030000b6030000b7030000b8030000b9030000ba030000bb030000bc030000bd030000be030000bf030000c0030000c1030000c2030000c3030000c4030000c5030000c6030000c7030000c8030000c9030000ca030000cb030000cc030000cd030000ce030000cf030000d0030000d1030000d2030000d3030000d4030000d5030000d6030000d7030000d8030000d9030000da030000db030000dc030000dd030000de030000df030000e0030000e1030000e2030000e3030000e4030000e5030000e6030000e6030000
+  currentWaypointRight1: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f030000200300002103000022030000230300002403000025030000260300002703000028030000290300002a0300002b0300002c0300002d0300002e0300002f030000300300003103000032030000330300003403000035030000360300003703000038030000390300003a0300003b0300003c0300003d0300003e0300003f030000400300004103000042030000430300004403000045030000460300004703000048030000490300004a0300004b0300004c0300004d0300004e0300004f030000500300005103000052030000530300005403000055030000560300005703000058030000590300005a0300005b0300005c0300005d0300005e0300005f030000600300006103000062030000630300006403000065030000660300006703000068030000690300006a0300006b0300006c0300006d0300006e0300006f030000700300007103000072030000730300007403000075030000760300007703000078030000790300007a0300007b0300007c0300007d0300007e0300007f030000800300008103000082030000830300008403000085030000860300008703000088030000890300008a0300008b0300008c0300008d0300008e0300008f030000900300009103000092030000930300009403000095030000960300009703000098030000990300009a0300009b0300009c0300009d0300009e0300009f030000a0030000a1030000a2030000a3030000a4030000a5030000a6030000a7030000a8030000a9030000aa030000ab030000ac030000ad030000ae030000af030000b0030000b1030000b2030000b3030000b4030000b5030000b6030000b7030000b8030000b9030000ba030000bb030000bc030000bd030000be030000bf030000c0030000c1030000c2030000c3030000c4030000c5030000c6030000c7030000c8030000c9030000ca030000cb030000cc030000cd030000ce030000cf030000d0030000d1030000d2030000d3030000d4030000d5030000d6030000d7030000d8030000d9030000da030000db030000dc030000dd030000de030000df030000e0030000e1030000e2030000e3030000e4030000e5030000e603000000000000
+  processAllData: 1
+  dataNotProcessed: 1
+  copModeActive: 0
+  waypointsSerialized:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waypointsRightSerialized:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waypointsLeftSerialized:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waypointsPitsSerialized: []
+  mainTrackInitialWaypoint: 0
+  mainTrackEndWaypoint: 0
+  isMainTrack: 0
+  myMainTrackInitial: 0
+  myMainTrackEnd: 0
+  trackCenter: {fileID: 100006}
+  racingLine: {fileID: 100000}
+  trackLimitRight: {fileID: 0}
+  trackLimitLeft: {fileID: 0}
+  pitLine: {fileID: 0}
+  manager: {fileID: 11400026}
+  checkPointsContainer: {fileID: 0}
+  checkPoints: []
+  defaultCheckPointModel: {fileID: 0}
+  dnfLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  dnfCarsOnOtherLayer: 0
+  maxHeightDifference: 3
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -718775236, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startRaceManually: 0
+  dontAddCops: 1
+  startCounterTime: 3
+  StartRace: {fileID: 0}
+  StartRace2: {fileID: 0}
+  manager: {fileID: 0}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1653552646, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridPositionsCars: {fileID: 400056}
+  gridPositionsCarsRollingStart: {fileID: 433318}
+--- !u!1 &100070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400048}
+  - component: {fileID: 3300000}
+  - component: {fileID: 2300000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: WaypointsPit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100070}
+  m_Mesh: {fileID: 4300000, guid: 5bbce5bc39e770f49b3320b6f7169ac4, type: 3}
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100070}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ce738989c55fa2d458432f029f8f9d51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0
+--- !u!1 &100074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400074}
+  - component: {fileID: 11400026}
+  m_Layer: 0
+  m_Name: IRDSManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400066}
+  - {fileID: 400064}
+  - {fileID: 400062}
+  - {fileID: 400060}
+  - {fileID: 400058}
+  - {fileID: 400056}
+  - {fileID: 400000}
+  - {fileID: 400054}
+  - {fileID: 400006}
+  - {fileID: 400052}
+  - {fileID: 400002}
+  - {fileID: 400004}
+  - {fileID: 400050}
+  - {fileID: 400048}
+  - {fileID: 433318}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -52303760, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadWidth: 25
+  waypointsManager: {fileID: 11400022}
+  logos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  showToolTips: 1
+  script: {fileID: 11400006}
+  selected: 3
+  selectedPoints: 100
+  selectedSubSettings: 0
+  pitEntranceExit:
+  - {fileID: 6500002}
+  - {fileID: 6500000}
+  hideGUI: 1
+  stadistics: {fileID: 11400020}
+  showGUI: 0
+  markersContainer: {fileID: 0}
+  mainManager: []
+  currentTrackEdited: 0
+  raceModes: 0
+  lastManStandingIsByTime: 0
+  lastManStandingCounterTime: 25
+  checkPointStartTime: 50
+  editMode: 0
+  addTrackLimitAndRacingLine: 1
+  subtrackOptions: 1
+  markersRefreshrate: 0.2
+  showSplineControlPoints: 1
+  showMoveRotateHandles: 1
+  showHandlesForSelected: 1
+--- !u!1 &133318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433318}
+  - component: {fileID: 11433318}
+  m_Layer: 0
+  m_Name: RaceTrackPositionsRollingStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400074}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11433318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1015394566, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastMarker: 0
+  markerHeightStatic: 0
+  markerHeightMin: 0
+  markerRotation: {x: 0, y: 0, z: 0}
+  markerHeightMax: 0
+  staticHeight: 0
+  randomHeight: 0

@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 2000000}
+  - component: {fileID: 12400000}
+  - component: {fileID: 8100000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Main_Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 282.58377, y: 260.3212, z: 497.97217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.738806, g: 0.738806, b: 0.738806, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 500
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: 2
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1372879972, guid: 1424a6b95745ac347a8420092514e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadCamera: 0
+  audioAtenuationOn: 1
+  height: 1
+  heightDamping: 3
+  rotationDamping: 3
+  distance: 4
+  timeToFadeAudio: 0.1
+  audioAugmentRatio: 0.01
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  target: {fileID: 0}
+  roadPoints: {fileID: 0}
+  delayStartTime: 0
+  freeCamera: 0
+  forceFreeCamera: 0
+  zoomFactorMin: 5
+  zoomFactorMax: 25
+  zoomingDistance: 100
+  initialViewSpeed: 50
+  isColliding: 0
+  overrideRotation: 0
+  overrideLookAt: 0
+  overridePosition: 0
+  overrideFieldOfView: 0
+  overrideCollisionCorrection: 0
+  distanceSides: {x: 0, y: 0, z: 0}
+  sidesDamping: 0
+  activateDampingSpeed: 0
+  dampingSpeedMultiplierMin: 0.1
+  dampingSpeedMultiplierMax: 1
+  dampingMinSpeed: 5
+  dampingMaxSpeed: 20
+  currentDampingSpeedMultiplier: 0
+  externalRotation: {x: 0, y: 0, z: 0}
+  useTargetUpVector: 0
+  runCameraInFixedUpdate: 0
+  ignoreTimeScale: 0

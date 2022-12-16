@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 58aac277374cb6247891824c6078eb03
+timeCreated: 1531166091
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Background
+    100002: Dirt
+    100004: Fence01
+    100006: Fence02
+    100008: Fence03_IN
+    100010: FenceAds
+    100012: FenceOut
+    100014: Lights
+    100016: Terrain
+    100018: Terrain2
+    100020: Track
+    100022: //RootNode
+    400000: Background
+    400002: Dirt
+    400004: Fence01
+    400006: Fence02
+    400008: Fence03_IN
+    400010: FenceAds
+    400012: FenceOut
+    400014: Lights
+    400016: Terrain
+    400018: Terrain2
+    400020: Track
+    400022: //RootNode
+    2100000: Fence
+    2100002: TrackDirt
+    2100004: SU_Background
+    2100006: Grass
+    2300000: Background
+    2300002: Dirt
+    2300004: Fence01
+    2300006: Fence02
+    2300008: Fence03_IN
+    2300010: FenceAds
+    2300012: FenceOut
+    2300014: Lights
+    2300016: Terrain
+    2300018: Terrain2
+    2300020: Track
+    3300000: Background
+    3300002: Dirt
+    3300004: Fence01
+    3300006: Fence02
+    3300008: Fence03_IN
+    3300010: FenceAds
+    3300012: FenceOut
+    3300014: Lights
+    3300016: Terrain
+    3300018: Terrain2
+    3300020: Track
+    4300000: Fence02
+    4300002: Dirt
+    4300004: Background
+    4300006: Terrain2
+    4300008: Terrain
+    4300010: Fence03_IN
+    4300012: Lights
+    4300014: Track
+    4300016: Fence01
+    4300018: FenceAds
+    4300020: FenceOut
+    6400000: Background
+    6400002: Dirt
+    6400004: Fence01
+    6400006: Fence02
+    6400008: Fence03_IN
+    6400010: FenceAds
+    6400012: FenceOut
+    6400014: Lights
+    6400016: Terrain
+    6400018: Terrain2
+    6400020: Track
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fence
+    second: {fileID: 2100000, guid: 7315df16f96eb684a9e41364426dd677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 9034e54946cc4794b9e9c36f325f8812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SU_Background
+    second: {fileID: 2100000, guid: fcefac07f55423d4f84aa596673cd8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrackDirt
+    second: {fileID: 2100000, guid: af77204e02652e44992d3bfee53cda4e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

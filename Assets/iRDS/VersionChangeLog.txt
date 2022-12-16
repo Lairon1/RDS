@@ -1,0 +1,225 @@
+Version Log
+V3.2.6.1
+Removed all the old GUI stuff that was already marked as obsolete in order to get Unity 2019.3x able to make builds
+
+V3.2.6
+Fixed DAC Feature not working
+Fixed errors on Unity 2018 when using the rigging car tool and IRDSManager
+
+V3.2.5
+Fixed a bug that made the final race standings to be inaccurate
+
+V3.2.4
+Added new mobile demo track!
+Moved more methods from from IRDSCarControllerAI to IRDSNavigateTWapoints
+More refactoring of AI classes
+
+V3.2.3
+Moved more methods and events from IRDSCarControllerAI to IRDSNavigateTWapoints 
+Fixed a bug that the end of the race event was not getting triggered
+Totally Removed Legacy particles from the code, for having compatibility with Unity 2018
+
+V3.2.2
+Started to move everithing to namespaces to get things organized
+Moved some of the methods from IRDSCarControllerAI to IRDSNavigateTWapoints since it made more sense to have it on that class
+Added new properties and made a lot of Get and Set methods to be deprecated, since they don't make sense to have anymore
+Fixed pit stops issues
+
+V3.2.1
+Cleaned up comments on IRDSDrivetrain, IRDSManagerEditor, made changes to IRDSDrivetrain to get a more readable code (still WIP)
+Fixed a bug on IRDSCarControllerAI that prevented the player to move while in rolling starts.
+
+V3.2
+Refactoring of IRDSPLaceCars class and start of refactor of many other clasess
+Minor bug fixes
+
+V3.1
+Added Replay system
+RCC and Rewired integrations
+
+V3.0
+New uGUI integration.
+Improved physics of the cars.
+Added new models courtesy of Game Ready 3D Models
+
+V2.1.0.6a
+Fixed a bug that was making the cars not detecting the obstacles.
+Fixed a bug from the IRDSWheel layers and the CarSetup on the wheels not setting the layer and contact patch type on all the front/rear tires.
+
+V2.1.0.6
+Fixed an issue with the AutoStart Engine option not getting serialized when editing it on the IRDSCarSetup inspector
+Fixed an issue with the extra sounds when used as engine with different RPM thresholds
+Fixed a bug when inserting Markers with the IRDSManager
+Improved performance on the particles effects for the smoke, sand and grass effects.
+Updated Edys VP interface scripts with the latest Edys VP version for Unity5
+Improved AI Behavior when 2 AIs are side by side.
+
+V2.1.0.5
+Fixed some minor bugs
+Added the feature to make the car respawn if it gets outside of the track within a determined distance
+Added the Save/Load of cars and IRDSManager settings to an XML file
+
+V2.1.0.4
+Added a new parameter to the method AddNewAICar on the iRDSPlaceCar class
+Fixed an issue with the rolling starts, the issue was that the camera was not targetting player and the cars sometimes were hitting the walls.
+
+V2.1.0.3
+Fixed a bug that prevented the creation of subtracks
+
+V2.1.0.1
+Fixed a bug when using the preload cars path on mac that was not getting the path correctly.
+
+V2.1
+Added rolling starts as an option.
+Fixed an issue when using combined the always respawn and last man standing mode, that was causing that the DNF cars were always getting respawned after they got DNF
+Relocated the respawn settings of the levelload object into the respawn / intantiate tab option.
+Included some modifications to the championship system
+Fixed an exception reported hen using Unity5 on the UpdateMaxSlips method of the IRDSWheel class.
+Added the methods: GetCurrentTotalRaceTime and GetCurrentTotalRaceTimeString, which returns the total ellapsed race time
+The new suspension system now uses raycast instead of wheel collider for getting the ray hit.
+
+
+V 2.0.2.2f
+Added 2 new variables for the skid sound, skidEffectsThreshold and skidEffectsSensitivity.
+Deleted unnecesary skid sound checks on IRDSCarControllInput class.
+Corrected the AI behavior on the pits for 3rd party physics.
+Added a new option for the Analogue inputs, Combined Axis Pedals, this enables to get the inputs from the axis from their raw values, so you could use the same
+Axis for getting the throttle and the brake, useful for game pads with analogue sticks, like the Shield and PS Vita
+Changed the way that the IRDSManager hides and show the markers, and improved the performance of the editor mode a little.
+
+V 2.0.2.2.d
+Added a new bool variable named runCameraInFixedUpdate to make the late update loop be run on the fixed update
+this is useful to avoid some jittering when in netowrking mode.
+
+V 2.0.2.2c
+Fixed a bug that was only shown if the scene view was not focused.
+
+V 2.0.2.2b
+Fixed a bug about showing the wrongway label and signal
+Fixed the points shown on Champioship system (included on the asset store only)
+
+V 2.0.2.2a
+Add button to enable disable the racing line, maybe on the levelload object as an option
+Add some handles to the spline to treat it as beizer curves
+If you clear all track data the waitpoint numbering does not reset and continues using the last higher waipoint from previous data.
+
+iRDS V2.0.2.2
+Added new callbacks to the IRDSCarControllerAI class (onUnstuck, onRespawn, onRaceEnd, onRaceStart and onLapCompleted) you need to register your methods
+on the start or awake methods on your custom script.
+Fixed an issue with Edys and UnityCar or any third party physics that avoided the AI to do overtaking and avoid side collisions correctly.
+Improved the code for the car engine on the IRDSDrivetrain class
+Added new championship system.
+Fixed when cars get obstructed they pull back in a very crazy manner.
+Added buttons support for steering, throttle and brake for the analog inputs.
+Added a new method for starting the race manually on the IRDSStatistics class and the option on the levelload to enable it (startRaceManually)
+Added visible tire lateral and longitudinal curves for better tweaking the curves (usin animation curves for showing them only, not for editing).
+Fixed an issue when inserting new markers for the racing line and the track limits
+Added a delete marker option on IRDSManager to improve the workflow, you can now delete the markers without having to select them.
+Fixed the clear track data, now it resets the markers numeration.
+
+iRDS V2.0.2
+
+Fixed issues that didnt allowed to compile on windows phone 8
+Some car physics improvements
+
+iRDS V2.0.1.9
+Fixed a bug for the RemoveCar method on the IRDSPlaceCar class that was not removing the car from the IRDSManager drivers list
+
+iRDS V2.0.1.8
+Added default audio source properties to the extra sounds, so you can set them up
+Added dopppler level settings to gear, backfire, blow off and tire bump effects
+Fixed the suspension compresion when going at higher speeds
+Fixed an issue when selecting a car prefab on Mac that throwed an error
+More stable suspension system now, you may have to increase the spring rate force, since now the rate of the spring
+is calculated correctly
+Made some improvements on the calculations of the slipratio and slipangle, now they are more stable too
+
+iRDS V2.0.1.7
+Added new variables to be able to better setup the automatic shifting.
+Added handbrakeTime and handbrakeReleaseTime to the playercontrols class to fine tune how fast the hand brake is applied
+Imprived the revlimiter of the engine, now it limits the engine rpm if you downshift too early
+
+iRDS V2.0.1.6
+Added a better way to load all cars when you select a car prefab for using for the copy functions. (avoids reading everything from the resources folders at once)
+Fixed performance issues with the sound controller class
+Added the ability to put the markers upsidedown, so now you can make iRDS work with twists and loops, as the ones that can be made with TrackBuildR, we have tested it using TrackBuildR
+Added new variables to have more control over the heel_toe settings and the auto throttle for shifting features.
+Added shift up and down events on the sound controller class
+
+iRDS V2.0.1.5
+
+Added RPM Limiter to the engine class, now you can define where the engine cuts-off
+Improved the engine code, now it feels more real.
+Added Auto-resize option for the mobile controls layouts.
+Added the option to make a forced Throttle lift up when shifting.
+Added Heel-Toe downshift auto technique.
+Added a change layout method for the mobile controls to work at runtime
+Fixed a bug on the manually instantiated cars that are not getting passed the settings of overrideNitroInput
+Added the option of Unique Opponent Car on the race
+Now the minimap is tottaly deactivated and shot off when SetMiniMapsActive(false) is used.
+Added Copy properties functionality for tires settings
+Added Copy properties functionality for wing settings
+Added a validation to Veriffy if there is another car on the respawn point, to avoid cars collision and explosion respawns.
+Fixed bug about when changing the track center offset not updating the track automatically and not enabling the process all track data button.
+Added wheelie multiplier to make the cars do wheelies easier and for bikes too
+
+iRDS V2.0.1.4
+
+Fixed an issue that if the checkpoints are deleted manually the IRDSManager custom inspector throws an missing reference exception.
+Fixed minor bugs on capture the flag race mode.
+Fixed some Capture the flag bugs and improved the AI behavior on this race mode.
+
+iRDS V2.0.1.3
+
+Added the option to choose between KPH and MPH for the digital odometer
+Added the ability to see the power and torque curves of the cars on the engine settings (shown using animation curves, these are currently not editable)
+Moved some initializations from the Start method to the awake method on the IRDSDrivetrain class to avoid overriding values that are set by the SetMaxTorque and SetMaxPower methods in runtime.
+
+iRDS V2.0.1.2
+
+Fixed bug when using last man standing race type in lap knockout mode not making the cars to get descualified correctly.
+Added the feature to "pre-load" the cars on the resources folders into a string array to avoid loading them all into memory at the begginning of the race, this would help alot on mobile device with lower memory capacity.
+
+iRDS V2.0.1.1
+
+Fixed bug when importing the markers from easyroads that causes a missing component error.
+
+iRDS V2.0.1
+Fixed minor jettering bug on the camera when using the min and max Filed of view with a change multiplier higher than 1
+Fixed a bug that makes the cars on the pits to get respawned on the main track.
+Fixed a bug that makes some cars not to pit on their pit point, and instead they pit on the pit lane
+Add an option on levelload to not instantiate cars, to be able to make single and multiplayer games easily
+Fixed a bug that makes the fron tires not been detected after a new car is rigged.
+Added new sounds options for engine dependent sounds to be able to use animation curves to blend the pitch and volume, this is very useful to make more realistic engine sounds.
+Some performance improvements on the overal of the car physics engine.
+Added more options to the camera, to be able to add some external effects to the camera.
+
+iRDS V2.0 Final release
+
+Added a few more options on the camera, now you can set a damping multiplier that is affected by the car speed, useful to make Zooming effects
+
+On Going Development
+Improved the sound glitch when doing Change Player or change view on the IRDSCarCamera that was causing a glitching sound
+The class IRDSSTatistics reports some memory allocation at runtime which is because of the sorting method to get the positions
+of the racers.
+
+
+TO DEVELOP
+
+Add a new offset to the AI so they dont follow perfectly the racing line and give a touch of realism.
+Add preview of the touch steering a few seconds before the race starts or a few seconds at the start of the scene.
+Add the option to make always appear the touch steering while it is not pressed
+Add Capture the checkpoint subt type of race
+Add Replay system
+Add a new element called IRDS GUI: all teh GUI stuff. 
+
+So, in a couple of times I've seen something close to the AI of my dreams, I could see it but it was 
+going to go forever as it was a combination of values withing a range of different params. It is a very 
+neccesary script the one that will allow you to attach to a camera to enable viewing the AI values of 
+the selected car. Ideally allow to save them to a TXT but hey, I can note them by hand 
+
+FIX THIS ISSUES
+
+If a car loses its track because the AI params are too agresive. It usually get too mad, I think that if it gets further than n meters it should be respawn or disclasified because it goes runing randomly .
+
+NOTE: FOR Capture the flag to work with obstacle avoidance, it is needed to create a new layer (could be named flag) and assign this new layer to the flag game object, then in the physics manager settings, set this new layer to only be enlabled with the defaul
